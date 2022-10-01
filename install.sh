@@ -21,6 +21,8 @@ sudo pacman --sync --needed --noconfirm --noprogressbar git &>/dev/null
 sudo pacman --sync --needed --noconfirm --noprogressbar kitty-terminfo &>/dev/null
 # install podman package and dependencies
 sudo pacman --sync --needed --noconfirm --noprogressbar podman &>/dev/null
+# install fzf package
+sudo pacman --sync --needed --noconfirm --noprogressbar fzf &>/dev/null
 
 # run rootless podman
 sudo touch /etc/subuid /etc/subgid
