@@ -37,4 +37,4 @@ git clone --bare https://github.com/lliujinjun/dotfiles.git ~/.dotfiles 2>/dev/n
 ssh-keygen -q -b 521 -C "lliujinjun@163.com" -f $HOME/.ssh/id_ecdsa -N '' -t ecdsa
 
 # start emacs daemon with systemd
-systemctl enable --user --now emacs
+systemctl enable --user --now emacs 2>/dev/null
